@@ -1,0 +1,43 @@
+apply from: "https://raw.githubusercontent.com/nicainci/android_common_script/master/simple_application.gradle"
+
+android {
+    defaultConfig {
+        applicationId "com.lm.floatingball"
+    }
+
+//    signingConfigs {
+//        release {
+//            keyAlias 'lm_amap'
+//            keyPassword 'asd123456'
+//            storeFile file('../lm_amap.jks')
+//            storePassword 'asd123456'
+//        }
+//    }
+
+//    buildTypes {
+//        release {
+//            //是否混淆
+//            minifyEnabled false
+//            //是否移除无用资源
+//            zipAlignEnabled true
+//            //混淆的配置文件
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            //签名
+//            signingConfig signingConfigs.release
+//        }
+//        debug {
+//            //是否混淆
+//            minifyEnabled false
+//            //是否移除无用资源
+//            zipAlignEnabled true
+//            //混淆的配置文件
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            //签名
+//            signingConfig signingConfigs.release
+//        }
+//    }
+}
+
+dependencies {
+
+}
